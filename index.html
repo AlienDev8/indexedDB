@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>IndexedDB: Databases on the browsers</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<style type="text/css">
+		.element {
+			display:inline-block;
+		}
+		.name {
+			width:40%;
+			font-weight: 400;			
+		}
+		.age {
+			width:20%;
+			font-weight: 100;			
+		}
+		.delete {
+			color:#A31919;
+		}
+		.delete:hover{
+			cursor:pointer;
+			font-weight: 600;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h2>IndexDB on the browser</h2>
+		<p>Simple example saving data of people</p>
+		<div class="row">
+			<form class="form-inline well">
+				<div class="form-group">
+					<label for="exampleInputName2">Name</label>
+					<input type="text" class="form-control" id="name" placeholder="[Sr. Pedrito]">
+				</div>
+				<div class="form-group">
+					<label for="exampleInputEmail2">Age</label>
+					<input type="numeric" class="form-control" id="age" placeholder="[33]">
+				</div>
+				<button id="btnAdd" type="button" class="btn btn-default">Save</button>
+			</form>
+		</div>
+		<div class="row well">
+			<h5><b>People List</b></h5>
+			<ul id="tplPersonas"></ul>
+			<div class="well well-sm"><button id="btnDeleteAll" class="" type="button">Delete all data base</button></div>
+		</div>
+	</div>
+	<script type="text/javascript" src="db.js"></script>
+</body>
+</html>
