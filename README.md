@@ -4,7 +4,7 @@
 
 Little example to demostrate how works a database from client.
 
-### *[Demo](http://javascript.js)*
+### *[See Demo](https://jsbin.com/qerugob)*
 
 ### Prerequisites
 
