@@ -4,7 +4,7 @@
 
 Little example to demostrate how works a database from client.
 
-### *<a href="https://jsbin.com/qerugob" target="_blank">See demo</a>*
+### *<a href="https://jsbin.com/qerugob" target="blank">See demo</a>*
 
 ### Prerequisites
 
