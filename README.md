@@ -4,6 +4,8 @@
 
 Little example to demostrate how works a database from client.
 
+### *[Demo](http://javascript.js)*
+
 ### Prerequisites
 
 To work with this kind of database you just need javascript vanilla or any framework that you want, html5, css3 and have access to API IndexedDB
