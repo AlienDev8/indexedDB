@@ -16,9 +16,9 @@ You can download or clone and just run apache server or another y view how works
 
 ## Built With
 
-* [Javascript](http://javascript.js) - Javascript Vanilla
+* [Javascript](https://htmlcheatsheet.com/js/) - Javascript Vanilla
 * [IdexedDB API](https://www.w3.org/TR/IndexedDB-2/) - API Database IndexedDB
-* [Bootstrap 3.3.7](https://l.js) - Framework CSS
+* [Bootstrap 3.3.7](https://getbootstrap.com/) - Framework CSS
 
 ## Developer of this example
 
